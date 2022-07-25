@@ -8,7 +8,7 @@ sudo apt install gnupg2 curl -y
 
 wget https://repo.percona.com/apt/percona-release_latest.$(lsb_release -sc)_all.deb
 
-sudo dpkg -i percona-release_latest.$(lsb_release -sc)_all.deb -y
+sudo dpkg -i percona-release_latest.$(lsb_release -sc)_all.deb
 
 apt-get update -y
 
