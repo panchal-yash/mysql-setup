@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -xe
+
 apt-get update -y
 
 sudo apt install gnupg2 curl -y
